@@ -1,11 +1,11 @@
 {
-  "name": "chat",
+  "name": "gabriel",
   "version": "0.0.1",
-  "description": "A chat server.",
-  "main": "server.js",
+  "description": "A chat server for people that love chat servers.",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha",
-    "start": "node bootstrap.js"
+    "start": "node src/index.js"
   },
   "author": "Tristan O'Neil",
   "license": "MIT",
@@ -15,6 +15,8 @@
   },
   "devDependencies": {
     "mocha": "latest",
-    "socket.io-client": "latest"
+    "sinon": "latest",
+    "socket.io-client": "latest",
+    "docco": "latest"
   }
 }
