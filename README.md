@@ -11,4 +11,10 @@ Gabriel is a chat server built upon [socket.io](http://socket.io) and [express.j
 
 ## Tests
 
-You can run the test suite with `npm test`.
+You may run the test suite with `npm test`.
+
+## Documentation
+
+Gabriel is documented using [docco](http://jashkenas.github.io/docco/)
+if you add additional documentation you should regenerate the docs by running `docco src/*.js`.
+You may read through the docs [here](http://gofullstack.github.io/gabriel/docs/gabriel.html).
